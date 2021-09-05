@@ -1,3 +1,3 @@
 # Тестовое задание Oblako group
 
-Ссылка на gh-pages:
+Ссылка на gh-pages: https://kotezh.github.io/oblako/
