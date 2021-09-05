@@ -1,0 +1,10 @@
+.page {
+  padding: 0 16px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

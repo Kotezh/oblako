@@ -1,0 +1,14 @@
+.breadscrumbs {
+  padding: 16px 51px;
+  margin: 0;
+  &__text {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    /* Light theme / Secondary */
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    margin: 0;
+  }
+}
