@@ -34,6 +34,7 @@
     width: 16px;
     height: 16px;
     margin-right: 13px;
+    background-image: url(../../../assets/images/search-icon.svg);
   }
   &__search-input {
     border: none;
@@ -128,6 +129,7 @@
     height: 18px;
     margin: 0 10px 0 0;
     padding: 0;
+    background-image: url(../../../assets/images/filter-icon.svg);
   }
   &__btn-configure-text {
     font-family: "Montserrat", "Arial", sans-serif;
@@ -162,6 +164,7 @@
     height: 9px;
     margin: 0 12px 0 0;
     padding: 0;
+    background-image: url(../../../assets/images/delete-icon.svg);
   }
   &__btn-clear-text {
     font-family: "Montserrat", "Arial", sans-serif;
