@@ -1,3 +1,5 @@
+@import "../../app.component.scss";
+
 .filters {
   display: flex;
   flex-direction: column;
@@ -22,8 +24,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    // justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid $color-border-bottom;
     width: 100%;
   }
   &__search-icon {
@@ -43,14 +44,14 @@
     width: 80%;
   }
   &__search-input::placeholder {
-    color: grey;
+    color: $color-placeholder;
   }
   &__select-label {
     display: flex;
     flex-direction: column;
     padding: 7px 0;
     margin: 0 30px 0 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid $color-border-bottom;
     width: 100%;
   }
   &__select-label:last-child {
@@ -59,18 +60,16 @@
   &__select-text {
     padding: 0 4px;
     margin: 0;
-    color: rgba(0, 0, 0, 0.54);
+    color: $color-light-theme-primary;
     font-family: "Montserrat", "Arial", sans-serif;
     font-weight: 500;
     font-size: 10px;
     line-height: 1.2;
   }
   &__select-group {
-    // width: 25px;
-    // height: 25px;
     border: none;
     background-color: inherit;
-    color: rgba(0, 0, 0, 0.87);
+    color: $color-filter-blue-font-active;
     font-family: "Montserrat", "Arial", sans-serif;
     font-weight: 500;
     font-size: 12px;
@@ -79,7 +78,7 @@
     margin: 0;
   }
   &__select-option {
-    color: rgba(0, 0, 0, 0.87);
+    color: $color-filter-blue-font-active;
     font-family: "Montserrat", "Arial", sans-serif;
     font-weight: 500;
     padding: 0;
@@ -96,8 +95,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 1.33;
-    /* Light theme / Secondary */
-    color: rgba(0, 0, 0, 0.54);
+    color: $color-light-theme-secondary;
     padding: 0;
     margin: 0 76px 0 0;
   }
@@ -122,7 +120,7 @@
     border-radius: 24px;
     transition: background-color 300ms ease-in;
     &:hover {
-      background-color: rgba(16, 113, 255, 0.04);
+      background-color: $color-filter-blue-hover;
     }
   }
   &__btn-configure-icon {
@@ -137,8 +135,7 @@
     font-size: 12px;
     line-height: 1.33;
     align-items: center;
-    /* Primary / Blue */
-    color: #1071ff;
+    color: $color-filter-blue-border-active;
     padding: 0;
     margin: 0;
   }
@@ -157,7 +154,7 @@
     border-radius: 24px;
     transition: background-color 300ms ease-in;
     &:hover {
-      background-color: rgba(0, 0, 0, 0.04);
+      background-color: $color-btn-clear-hover;
     }
   }
   &__btn-clear-icon {
@@ -172,8 +169,7 @@
     font-size: 12px;
     line-height: 1.33;
     align-items: center;
-    /* Light theme / Secondary */
-    color: rgba(0, 0, 0, 0.54);
+    color: $color-light-theme-secondary;
     padding: 0;
     margin: 0;
   }

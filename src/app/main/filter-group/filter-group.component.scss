@@ -1,10 +1,12 @@
+@import "../../app.component.scss";
+
 .filter-group {
   margin: 0;
   padding: 0 8px;
   &__list {
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid $color-border-bottom;
     display: flex;
   }
   &__item {
@@ -17,16 +19,15 @@
     line-height: 1.33;
     text-align: center;
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.54);
-    /* Light theme / Primary */
+    color: $color-light-theme-primary;
     transition: background-color 300ms ease-in;
     &:hover {
-      box-shadow: 0 3px 0 0 rgba(0, 0, 255, 0.05);
-      background-color: rgba(16, 113, 255, 0.04);
+      box-shadow: 0 3px 0 0 $color-filter-blue-shadow;
+      background-color: $color-filter-blue-hover;
     }
     &_active {
-      border-bottom: 2px solid #1071ff;
-      color: rgba(0, 0, 0, 0.87);
+      border-bottom: 2px solid$color-filter-blue-border-active;
+      color: $color-filter-blue-font-active;
       border-radius: 0px;
     }
   }
